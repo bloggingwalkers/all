@@ -153,5 +153,4 @@ function a_to_fa() {
     protected_links = protected_links.replace(" ", "");
     a_to_vf = protected_links.split(",");
     return a_to_vf;
-} /*]]>*/ < /script> <script > /*<![CDATA[*/ protected_links = "facebook.com,fb.me,instagram.com,plus.google.com,twitter.com";
-auto_safelink(); /*]]>*/ < /script>  
+} /*]]>*/ < /script> 
