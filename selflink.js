@@ -124,14 +124,14 @@ function auto_safeconvert() {
         j = 0;
         while (a_to_vh == false && j < a_to_vg) {
             a_to_vi = a_to_ve[i].href;
-            if (a_to_vi.match(a_to_vf[j]) || !a_to_vi || !a_to_vi.match("https")) {
+            if (a_to_vi.match(a_to_vf[j]) || !a_to_vi || !a_to_vi.match("http")) {
                 a_to_vh = true;
             }
             j++;
         }
         if (a_to_vh == false) {
             var encryptedUrl = Base64.encode(a_to_vi);
-            a_to_ve[i].href = "https://nge-blogging-blog.blogspot.com/p/selflink.html?url=" + encryptedUrl;
+            a_to_ve[i].href = "https://selffelink.blogspot.com/p/generate.html?url=" + encryptedUrl;
             a_to_ve[i].rel = "nofollow";
             a_to_vb++;
             a_to_vc += i + ":::" + a_to_ve[i].href + "\n";
